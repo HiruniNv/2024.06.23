@@ -1,64 +1,387 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.css">
 </head>
-<body>
-   
-    
-            <table width="100%">
-
-                <tr>
-                        <h1 class="bg-black text-white text-center p-5 fw-bolder">Moon</h1>
-                        <p class="bg-primary p-5 text-white fw-bolder">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime modi libero omnis iure hic voluptas, perspiciatis quibusdam fugit dolorem voluptates ex quasi et, ratione doloribus recusandae earum quia labore eaque.</p>
-    
-                </tr>
-    
-            <div class="container-fluid bg-black p-2">
-                <div class="row bg-danger">
-                    <div class=" col card bg-body-tertiary" style="width: 18rem;">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Supermoon_Nov-14-2016-minneapolis.jpg/640px-Supermoon_Nov-14-2016-minneapolis.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                      </div>
-
-                      <div class="col card bg-black text-white" style="width: 18rem;">
-                        <img src="https://earthsky.org/upl/2016/11/moon-1st-quarter-CChili-Dcpa.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                      </div>
-
-                      <div class="col card bg-body-tertiary" style="width: 18rem;">
-                        <img src="https://spaceandconstellations.weebly.com/uploads/2/7/0/8/27088083/6197282.jpg?327" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                      </div>
-
-                      <div class="col card bg-black text-white" style="width: 18rem;">
-                        <img src="https://live.staticflickr.com/65535/48709563762_ca23d6647a_b.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                      </div>
+<!-- <body class="bg-success">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse"
+                    id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#"
+                                role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item"
+                                        href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another
+                                        action</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Something
+                                        else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled"
+                                aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search"
+                            placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success"
+                            type="submit">Search</button>
+                    </form>
                 </div>
-                
             </div>
-    
-            </table>
-        </body>
-    </html>
+        </nav>
+
+        <div class="container-fluid bg-black p-2">
+            <div class="row bg-danger m-2">
+                <div class="col bg-danger-subtle">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident sapiente optio repellendus neque suscipit ipsa, nihil labore fugit inventore consequuntur, officia asperiores nesciunt? Sunt odit molestiae inventore, quam quidem vitae.</p>
+                     <div class="row bg-info m-2">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi possimus ex, eos iste, nesciunt labore sunt ipsa, explicabo harum unde recusandae vel error perferendis veniam eius quas asperiores laboriosam repellendus.</p>
+            </div>
+        </div>
+        </div> 
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-4 col-lg-2">
+                    <div class="card m-sm-5 m-md-0 m-lg-0" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <h6
+                                class="card-subtitle mb-2 text-body-secondary">Card
+                                subtitle</h6>
+                            <p class="card-text">Some quick example text to
+                                build on the card title and make up the bulk of
+                                the card's content.</p>
+                            <a href="#" class="card-link">Card link</a>
+                            <a href="#" class="card-link">Another link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-2">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <h6
+                                class="card-subtitle mb-2 text-body-secondary">Card
+                                subtitle</h6>
+                            <p class="card-text">Some quick example text to
+                                build on the card title and make up the bulk of
+                                the card's content.</p>
+                            <a href="#" class="card-link">Card link</a>
+                            <a href="#" class="card-link">Another link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-2">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <h6
+                                class="card-subtitle mb-2 text-body-secondary">Card
+                                subtitle</h6>
+                            <p class="card-text">Some quick example text to
+                                build on the card title and make up the bulk of
+                                the card's content.</p>
+                            <a href="#" class="card-link">Card link</a>
+                            <a href="#" class="card-link">Another link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-2">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <h6
+                                class="card-subtitle mb-2 text-body-secondary">Card
+                                subtitle</h6>
+                            <p class="card-text">Some quick example text to
+                                build on the card title and make up the bulk of
+                                the card's content.</p>
+                            <a href="#" class="card-link">Card link</a>
+                            <a href="#" class="card-link">Another link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-2">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <h6
+                                class="card-subtitle mb-2 text-body-secondary">Card
+                                subtitle</h6>
+                            <p class="card-text">Some quick example text to
+                                build on the card title and make up the bulk of
+                                the card's content.</p>
+                            <a href="#" class="card-link">Card link</a>
+                            <a href="#" class="card-link">Another link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-2">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <h6
+                                class="card-subtitle mb-2 text-body-secondary">Card
+                                subtitle</h6>
+                            <p class="card-text">Some quick example text to
+                                build on the card title and make up the bulk of
+                                the card's content.</p>
+                            <a href="#" class="card-link">Card link</a>
+                            <a href="#" class="card-link">Another link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body> -->
+
+<!-- <body class="bg-black">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-lg-1 col-md-2 bg-warning-subtle ">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus id doloribus facilis quia aliquam
+                    fugiat mollitia iusto at rem impedit, alias blanditiis ut qui! Magni quae quisquam expedita corrupti
+                    voluptas!</p>
+            </div>
+            <div class="col-sm-12 col-lg-1 col-md-2 bg-success">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus id doloribus facilis quia aliquam
+                    fugiat mollitia iusto at rem impedit, alias blanditiis ut qui! Magni quae quisquam expedita corrupti
+                    voluptas!</p>
+            </div>
+            <div class="col-sm-12 col-lg-1 col-md-2 bg-danger-subtle">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus id doloribus facilis quia aliquam
+                    fugiat mollitia iusto at rem impedit, alias blanditiis ut qui! Magni quae quisquam expedita corrupti
+                    voluptas!</p>
+            </div>
+            <div class="col-sm-12 col-lg-1 col-md-2 bg-info">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus id doloribus facilis quia aliquam
+                    fugiat mollitia iusto at rem impedit, alias blanditiis ut qui! Magni quae quisquam expedita corrupti
+                    voluptas!</p>
+            </div>
+            <div class="col-sm-12 col-lg-1 col-md-2 bg-black">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus id doloribus facilis quia aliquam
+                    fugiat mollitia iusto at rem impedit, alias blanditiis ut qui! Magni quae quisquam expedita corrupti
+                    voluptas!</p>
+            </div>
+            <div class="col-sm-12 col-lg-1 col-md-2 bg-primary">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus id doloribus facilis quia aliquam
+                    fugiat mollitia iusto at rem impedit, alias blanditiis ut qui! Magni quae quisquam expedita corrupti
+                    voluptas!</p>
+            </div>
+            <div class="col-sm-12 col-lg-1 col-md-2 bg-danger">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus id doloribus facilis quia aliquam
+                    fugiat mollitia iusto at rem impedit, alias blanditiis ut qui! Magni quae quisquam expedita corrupti
+                    voluptas!</p>
+            </div>
+            <div class="col-sm-12 col-lg-1 col-md-2 bg-warning">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus id doloribus facilis quia aliquam
+                    fugiat mollitia iusto at rem impedit, alias blanditiis ut qui! Magni quae quisquam expedita corrupti
+                    voluptas!</p>
+            </div>
+            <div class="col-sm-12 col-lg-1 col-md-2 bg-light">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus id doloribus facilis quia aliquam
+                    fugiat mollitia iusto at rem impedit, alias blanditiis ut qui! Magni quae quisquam expedita corrupti
+                    voluptas!</p>
+            </div>
+            <div class="col-sm-12 col-lg-1 col-md-2 bg-info-subtle">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus id doloribus facilis quia aliquam
+                    fugiat mollitia iusto at rem impedit, alias blanditiis ut qui! Magni quae quisquam expedita corrupti
+                    voluptas!</p>
+            </div>
+            <div class="col-sm-12 col-lg-1 col-md-2 bg-success">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus id doloribus facilis quia aliquam
+                    fugiat mollitia iusto at rem impedit, alias blanditiis ut qui! Magni quae quisquam expedita corrupti
+                    voluptas!</p>
+            </div>
+            <div class="col-sm-12 col-lg-1 col-md-2 bg-secondary">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus id doloribus facilis quia aliquam
+                    fugiat mollitia iusto at rem impedit, alias blanditiis ut qui! Magni quae quisquam expedita corrupti
+                    voluptas!</p>
+            </div>
+        </div>
+    </div>
+
+
+</body> -->
+
+<body class="bg-black">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container bg-dander-subtle p-2">
+        <h1 style="text-align: center; background-color: bisque;">Moon</h1>
+        <p class="bg-body-tertiary container-fluid">The Moon is Earth's only natural satellite. It orbits at an average distance of
+            384,400 km, about 30 times the diameter of Earth. Over time Earth's gravity has caused tidal locking,
+            causing the same side of the Moon to always face Earth.<br>
+            Distance to Earth: 384,400 km<br>
+            Orbital period: 27 days<br>
+            Gravity: 1.62 m/s²<br>
+            Radius: 1,737.4 km<br>
+            Age: 4.53 billion years<br>
+            Apparent magnitude: : −2.5 to −12.9; −12.74 (mean full moon);<br>
+            Escape velocity: 2.38 km/s; (8600 km/h; 5300 mph)<br>
+        </p>
+        <div class="row p-2">
+            <div class="col-sm-12 col-md-6 col-lg-3 bg-danger">
+                <div class="card" style="width: 18rem; margin: 2px;">
+                    <img src="https://cdn.mos.cms.futurecdn.net/xXp45gLeBTBt4jPuZcawUJ-1200-80.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                    <div class="card-body">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 bg-warning-subtle">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://earthsky.org/upl/2019/11/lunarX-Tim-Yacyshyn-Richmond-British-Columbia-CN-800x847.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                    <div class="card-body">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 bg-success">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://earthsky.org/upl/2020/08/nearly-1st-quarter-moon-jul26-2020-Richard-Mataisz-e1598354898263.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                    <div class="card-body">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 bg-primary">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://ritualwaters.com/wp-content/uploads/2015/10/Waxing-94X.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                    <div class="card-body">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="col-sm-12 col-md-4 col-lg-2 bg-success">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAHUwmL1J7tENgJ30SopbDl7_D0-zOuN4ajQ&s" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                    <div class="card-body">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-2 bg-primary">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAHUwmL1J7tENgJ30SopbDl7_D0-zOuN4ajQ&s" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                    <div class="card-body">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </div>
+</body>
+
+</html>
